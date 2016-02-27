@@ -1,0 +1,9 @@
+﻿@using ScottishPremierLeauge.HtmlExtensions
+@model ScottishPremierLeauge.Models.ImageDbType
+@{
+    ViewBag.Title = "Success";
+}
+
+<h2>Image create succesfully, Success! @Model.Name</h2>
+@Html.Image(@Model.ImageData)
+
